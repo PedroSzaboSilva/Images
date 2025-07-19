@@ -4,10 +4,9 @@
     {
       "name": "Fenix",
       "key": "fenix",
-      "logoUrl": "https://flybywirecdn.com/installer/media-assets/publisher-icons/flybywiresim/0.svg",
+      "logoUrl": "https://raw.githubusercontent.com/PedroSzaboSilva/Images/refs/heads/main/fenix.ico",
       "defs": [
         { "kind": "addonCategory", "key": "aircraft", "title": "Aircraft" },
-        { "kind": "addonCategory", "key": "scenery", "title": "Scenery" },
         {
           "kind": "addonCategory",
           "key": "simbridge",
@@ -39,30 +38,30 @@
       ],
       "addons": [
         {
-          "key": "A32NX",
-          "name": "A32NX",
-          "repoOwner": "flybywiresim",
+          "key": "A319",
+          "name": "A319",
+          "repoOwner": "fenix",
           "repoName": "aircraft",
           "category": "@aircraft",
-          "aircraftName": "A320-251N",
-          "titleImageUrl": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-a32nx/dark.svg",
-          "titleImageUrlSelected": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-a32nx/light.svg",
+          "aircraftName": "A319-100",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A319.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A319_LIGHT.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
-            "https://flybywirecdn.com/installer/media-assets/addon-headers/fbw-a32nx/1.png"
+            "https://github.com/PedroSzaboSilva/Images/blob/main/FenixA319Fire.png?raw=true"
           ],
-          "shortDescription": "Airbus A320neo Series",
-          "description": "The A320neo (new engine option) is one of many upgrades introduced by Airbus to help maintain its A320 product line’s position as the world’s most advanced and fuel-efficient single-aisle aircraft family. The baseline A320neo jetliner has a choice of two new-generation engines (the PurePower PW1100G-JM from Pratt and Whitney and the LEAP-1A from CFM International) and features large, fuel-saving wingtip devices known as Sharklets.",
+          "shortDescription": "Airbus A319 Series",
+          "description": "The A319 (Shorter A320) is one of many upgrades introduced by Airbus to help maintain its A320 product line’s position as the world’s most advanced and fuel-efficient single-aisle aircraft family. The baseline A319 jetliner has a choice of two new-generation engines (the PurePower PW1100G-JM from Pratt and Whitney and the LEAP-1A from CFM International) and features large, fuel-saving wingtip devices known as Sharklets.",
           "techSpecs": [
             { "name": "Engines", "value": "CFM LEAP 1A-26" },
             { "name": "APU", "value": "APS3200" }
           ],
           "targetDirectory": "flybywire-aircraft-a320-neo",
-          "alternativeNames": ["A32NX", "a32nx"],
+          "alternativeNames": ["A319", "a319"],
           "tracks": [
             {
-              "name": "Stable",
-              "key": "a32nx-stable",
+              "name": "CFM Public Build",
+              "key": "a319cfm-stable",
               "url": "https://flybywirecdn.com/addons/a32nx/stable",
               "alternativeUrls": [
                 "external/a32nx/stable",
@@ -73,112 +72,44 @@
               "releaseModel": { "type": "fragmenter" }
             },
             {
-              "name": "Development",
-              "key": "a32nx-dev",
-              "url": "https://flybywirecdn.com/addons/a32nx/master",
+              "name": "IAE Public Build",
+              "key": "a319iae-stable",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
               "alternativeUrls": [
-                "https://cdn.flybywiresim.com/addons/a32nx/cfbw-cap",
-                "https://cdn.flybywiresim.com/addons/a32nx/cfbw",
-                "external/a32nx/master",
-                "https://cdn.flybywiresim.com/addons/a32nx/master",
-                "https://flybywirecdn.com/addons/a32nx/experimental",
-                "external/a32nx/experimental",
-                "https://cdn.flybywiresim.com/addons/a32nx/experimental",
-                "https://github.com/flybywiresim/a32nx/releases/download/assets/experimental/"
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
               ],
-              "description": "The development edition has all of the latest features and bug fixes that will end up in the next stable edition release. Although every change is QA-tested, bugs sometimes slip in; please reach out to us if you find any. Updates occur whenever something is added to the 'master' branch on Github. Please visit our discord for support.",
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
+              "releaseModel": { "type": "fragmenter" }
+            },
+            {
+              "name": "CFM Alpha Build",
+              "key": "a319cfm-alpha",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": true,
+              "releaseModel": { "type": "fragmenter" }
+            },
+            {
+              "name": "IAE Alpha Build",
+              "key": "a319iae-alpha",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": true,
               "releaseModel": { "type": "fragmenter" }
             }
           ],
-          "dependencies": [
-            {
-              "addon": "@flybywiresim/simbridge",
-              "optional": true,
-              "modalText": "SimBridge allows the A32NX to expose remote tools like the Web MCDU, as well as use the external terrain database."
-            }
-          ],
-          "incompatibleAddons": [
-            {
-              "title": "FlightFlow | IMPROVED TEXTURES MOD",
-              "creator": "FlightFlow",
-              "description": "It is recommended to remove this add-on/mod before installing and using the A32NX. This add-on/mod is known to override A32NX components and cause unexpected behavior and issues when flying the A32NX."
-            },
-            {
-              "title": "Horizon Simulations A319ceo",
-              "packageVersion": "<0.6.1",
-              "description": "It is recommended to upgrade to the latest version (0.6.1 or later) or to remove this add-on before installing and using the A32NX. The older versions of this add-on are known to override A32NX components and to break the A32NX."
-            },
-            {
-              "title": "Horizon Simulations A321neo",
-              "description": "It is recommended to remove this add-on before installing and using the A32NX. This add-on is known to override A32NX components and cause unexpected behavior and issues when flying the A32NX."
-            },
-            {
-              "title": "LVFR A321neo FBW A32NX Compatibility Mod",
-              "description": "It is recommended to remove this add-on before installing and using the A32NX. This add-on is known to override A32NX components and to break the A32NX."
-            },
-            {
-              "title": "LVFR A321neo Extreme",
-              "description": "It is recommended to remove this add-on before installing and using the A32NX. This add-on is known to override A32NX components and cause unexpected behavior and issues when flying the A32NX."
-            },
-            {
-              "title": "lvfr-airbus-a319-fbw-standalone",
-              "packageVersion": "<0.6.1",
-              "description": "It is recommended to upgrade to the latest version (0.6.1 or later) or to remove this add-on before installing and using the A32NX. The older versions of this add-on are known to override A32NX components and to break the A32NX."
-            },
-            {
-              "title": "lvfr-airbus-a319-ceo-fbw-compatibility",
-              "description": "It is recommended to remove this add-on before installing and using the A32NX. This add-on is known to override A32NX components and cause unexpected behavior and issues when flying the A32NX."
-            },
-            {
-              "title": "[MOD] Mugz FBW A32NX Dev",
-              "description": "It is required to remove this add-on before installing and using the A32NX. This add-on overrides A32NX components and renders the A32NX unusable."
-            },
-            {
-              "title": "[MOD] Mugz FBW A32NX Stable",
-              "description": "It is required to remove this add-on before installing and using the A32NX. This add-on overrides A32NX components and renders the A32NX unusable."
-            },
-            {
-              "title": "Toolbar Pushback",
-              "creator": "AmbitiousPilots",
-              "description": "This add-on sometimes causes performance issues and also sometimes prevents the A32NX from taxiing. Consider removing it if you experience these issues."
-            },
-            {
-              "title": "Asobo_A320_A (A32NX Converted)",
-              "creator": "UnitDeath",
-              "description": "It is required to remove this livery before installing and using the A32NX as it breaks the A32NX"
-            },
-            {
-              "title": "xeffect-320",
-              "creator": "swingbird",
-              "description": "It is recommended to remove this add-on before installing and using the A32NX. It is known known to override A32NX files and to break the A32NX."
-            },
-            {
-              "title": "z-Newlight-settinglight-FBW-A320NX-dev",
-              "creator": "Nicottine",
-              "description": "It is required to remove this add-on before installing and using the A32NX. This add-on overrides A32NX components and renders the A32NX unusable."
-            },
-            {
-              "title": "z-Newlight-settinglight-FBW-A320NX-stable",
-              "creator": "Nicottine",
-              "description": "It is required to remove this add-on before installing and using the A32NX. This add-on overrides A32NX components and renders the A32NX unusable."
-            },
-            {
-              "title": "z-Newlight-settinglight-FBW-A320NX-EXP",
-              "creator": "Nicottine",
-              "description": "It is required to remove this add-on before installing and using the A32NX. This add-on overrides A32NX components and renders the A32NX unusable."
-            },
-            {
-              "title": "FBW A32NX Weather Radar Mod",
-              "creator": "",
-              "description": "It is required to remove this add-on before installing and using the A32NX. This add-on overrides A32NX components and may render the A32NX unusable."
-            },
-            {
-              "title": "China Eastern",
-              "creator": "JasonC68",
-              "description": "It is recommended to remove this add-on before installing and using the A32NX. This add-on is known to override A32NX components and cause unexpected behavior and issues when flying the A32NX."
-            }
-          ],
+          "dependencies": [{}],
+          "incompatibleAddons": [{}],
           "myInstallPage": {
             "links": [
               {
@@ -196,166 +127,182 @@
           "disallowedRunningExternalApps": ["@/msfs", "@/mcdu-server"]
         },
         {
-          "name": "A380X",
-          "key": "A380X",
-          "repoOwner": "flybywiresim",
+          "key": "A320",
+          "name": "A320",
+          "repoOwner": "fenix",
           "repoName": "aircraft",
           "category": "@aircraft",
-          "aircraftName": "A380-842",
-          "titleImageUrl": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-a380x/dark.svg",
-          "titleImageUrlSelected": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-a380x/light.svg",
+          "aircraftName": "A320-200",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A320.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A320_LIGHT.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
-            "https://flybywirecdn.com/installer/media-assets/addon-headers/fbw-a380x/a380x.png"
+            "https://github.com/PedroSzaboSilva/Images/blob/main/FenixFire1.png?raw=true"
           ],
-          "shortDescription": "Airbus A380-800",
-          "description": "",
+          "shortDescription": "Airbus A320 Series",
+          "description": "The A320 is one of many upgrades introduced by Airbus to help maintain its A320 product line’s position as the world’s most advanced and fuel-efficient single-aisle aircraft family. The baseline A319 jetliner has a choice of two new-generation engines (the PurePower PW1100G-JM from Pratt and Whitney and the LEAP-1A from CFM International) and features large, fuel-saving wingtip devices known as Sharklets.",
           "techSpecs": [
-            { "name": "Engines", "value": "RR Trent 972B-84" },
-            { "name": "APU", "value": "PW980" }
+            { "name": "Engines", "value": "CFM LEAP 1A-26" },
+            { "name": "APU", "value": "APS3200" }
           ],
-          "targetDirectory": "flybywire-aircraft-a380-842",
-          "alternativeNames": ["A380X", "a380x"],
+          "targetDirectory": "fenix-aircraft-a320-neo",
+          "alternativeNames": ["A320", "a320"],
           "tracks": [
             {
-              "name": "Stable (4K)",
-              "key": "a380x-stable-4k",
-              "url": "https://flybywirecdn.com/addons/a380x/stable-4k",
-              "alternativeUrls": [],
-              "description": "Includes our 4K downscaled cabin, cockpit and exterior textures. Choose this option for reduced stutters, better performance, with HIGH or lower texture resolution. Especially, if you intend to use the following:\n\n* Use frame generation \n\n* Virtual Reality (VR) \n\n* DX12 beta \n\n* or are otherwise limited by your graphics card VRAM amount. [System Requirements](https://docs.flybywiresim.com/aircraft/install/installation/#estimated-system-requirements-for-a380x)",
-              "isExperimental": false,
-              "releaseModel": { "type": "fragmenter" }
-            },
-            {
-              "name": "Stable (8K)",
-              "key": "a380x-stable-8k",
-              "url": "https://flybywirecdn.com/addons/a380x/stable-8k",
-              "alternativeUrls": [],
-              "description": "Includes our 8K full resolution cabin, cockpit and exterior textures. This is the full fidelity experience and our recommendation if your system is powerful enough to support it. Realistic and in high detail.\n\n* DX11 recommended \n\n* HIGH or lower texture resolution setting recommended \n\n",
-              "isExperimental": false,
-              "releaseModel": { "type": "fragmenter" }
-            },
-            {
-              "name": "Development (4K)",
-              "key": "a380x-dev-4k",
-              "url": "https://flybywirecdn.com/addons/a380x/master-4k",
-              "alternativeUrls": [],
-              "description": "Development will have the latest features that will end up in the next stable. Although every change is QA-tested, bugs are a little more likely. It updates whenever something is added to the 'master' branch on Github. Please visit our discord for support. \n\nIncludes our 4K downscaled cabin, cockpit and exterior textures. Choose this option for reduced stutters, better performance, with HIGH or lower texture resolution. Especially, if you intend to use the following:\n\n* Use frame generation \n\n* Virtual Reality (VR) \n\n* DX12 beta \n\n* or are otherwise limited by your graphics card VRAM amount. ",
-              "isExperimental": false,
-              "releaseModel": { "type": "fragmenter" }
-            },
-            {
-              "name": "Development (8K)",
-              "key": "a380x-dev-8k",
-              "url": "https://flybywirecdn.com/addons/a380x/master-8k",
-              "alternativeUrls": [],
-              "description": "Development will have the latest features that will end up in the next stable. Although every change is QA-tested, bugs are a little more likely. It updates whenever something is added to the 'master' branch on Github. Please visit our discord for support. \n\n* DX11 recommended \n\n* HIGH or lower texture resolution setting recommended \n\n",
-              "isExperimental": false,
-              "releaseModel": { "type": "fragmenter" }
-            }
-          ],
-          "incompatibleAddons": [
-            {
-              "title": "Mets747 FBW A380 Lights Mod",
-              "description": "It is recommended to remove this add-on before installing and using the A380X. This add-on overrides A380X components and may render the A380X unusable."
-            },
-            {
-              "title": "a380_light_mod",
-              "description": "It is required to remove this add-on before installing and using the A380X. This add-on overrides A380X components and may render the A380X unusable."
-            },
-            {
-              "title": "Super6uo FBW A380X Realistic Light Enhancement",
-              "description": "It is required to remove this add-on before installing and using the A380X. This add-on overrides A380X components and may render the A380X unusable."
-            },
-            {
-              "title": "FlyByWire Airbus A380X OIT Functionality",
-              "description": "It is required to remove this add-on before installing and using the A380X. This add-on overrides A380X components and may render the A380X unusable."
-            }
-          ],
-          "disallowedRunningExternalApps": ["@/msfs"]
-        },
-        {
-          "name": "KFBW",
-          "key": "KFBW",
-          "category": "@scenery",
-          "aircraftName": "FBW Headquarters",
-          "enabled": true,
-          "overrideAddonWhileHidden": "A380X",
-          "backgroundImageUrls": [
-            "https://flybywirecdn.com/installer/media-assets/addon-headers/fbw-kfbw/0.png"
-          ],
-          "titleImageUrl": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-kfbw/dark.svg",
-          "titleImageUrlSelected": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-kfbw/light.svg",
-          "shortDescription": "FlyByWire Headquarters",
-          "description": "Welcome to KFBW! \n\nThis is a showcase of the A380 project. Spawn at KFBW or fly there! The nearest airport is KTNP (Twenty-Nine Palms, California, USA). There is an ILS without waypoints to Runway 10. Freq: 108.9 CRS: 100  \nThe airport is designed to be used by our developers for flight testing of the A380 and also designed to match the real-world A380 testing airport in Hamburg, Germany (EDHI).  \nThe location allows for quick test flights to LAX, which is also serviced by the A380.  \nUse the developer or drone camera to explore! \n\nHappy holidays and enjoy! -FBW Team",
-          "targetDirectory": "flybywire-airport-kfbw-flybywire-field",
-          "tracks": [
-            {
-              "name": "Release",
-              "key": "kfbw-release",
-              "url": "https://flybywirecdn.com/addons/kfbw/release/",
+              "name": "CFM Public Build",
+              "key": "a320cfm-stable",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
               "alternativeUrls": [
-                "https://cdn.flybywiresim.com/addons/kfbw/release/"
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
               ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "CDN" },
-              "description": "FlyByWire Headquarters is transformed into a winter wonderland - complete with a plethora of festive decorations in addition to the standard progress showcase."
-            }
-          ]
-        },
-        {
-          "name": "SimBridge",
-          "key": "simbridge",
-          "category": "@simbridge",
-          "repoOwner": "flybywiresim",
-          "repoName": "simbridge",
-          "aircraftName": "FBW SimBridge",
-          "titleImageUrl": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-simbridge/dark.svg",
-          "titleImageUrlSelected": "https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-simbridge/light.svg",
-          "enabled": true,
-          "backgroundImageUrls": [
-            "https://flybywirecdn.com/installer/media-assets/addon-headers/fbw-simbridge/0.png"
-          ],
-          "backgroundImageShadow": false,
-          "shortDescription": "Airbus A380-800",
-          "description": "<span style=\"color: rgb(255, 106, 0);\">&#9888; Important: Starting with version 0.6.0, custom resources such as PDF Charts and Company Routes must be stored in the Documents folder (typically located at `C:\\Users\\<Username>\\Documents\\FlyByWireSim\\Simbridge\\resources)`. <br> Please ensure you back up your files before updating. After the update, transfer your files to this new location to keep them safe from future updates. You can also use the Resources button in the About section of the installer to locate the folder.</span> \n\nSimBridge is an external app that enables FlyByWire Simulations aircraft to communicate outside your simulator. From remote displays to external terrain display rendering, it is used for a variety of optional features.",
-          "targetDirectory": "flybywire-externaltools-simbridge",
-          "tracks": [
+              "releaseModel": { "type": "fragmenter" }
+            },
             {
-              "name": "Release",
-              "key": "release",
-              "releaseModel": { "type": "githubRelease" },
-              "url": "https://flybywirecdn.com/addons/simbridge/release/",
+              "name": "IAE Public Build",
+              "key": "a320iae-stable",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
               "alternativeUrls": [
-                "https://cdn.flybywiresim.com/addons/simbridge/release/"
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
               ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "description": "<span style=\"color: rgb(255, 106, 0);\">&#9888; Important: Starting with version 0.6.0, custom resources such as PDF Charts and Company Routes must be stored in the Documents folder (typically located at `C:\\Users\\<Username>\\Documents\\FlyByWireSim\\Simbridge\\resources)`. <br> Please ensure you back up your files before updating. After the update, transfer your files to this new location to keep them safe from future updates. You can also use the Resources button in the About section of the installer to locate the folder.</span> \n\nSimBridge is an external app that enables FlyByWire Simulations aircraft to communicate outside your simulator. From remote displays to external terrain display rendering, it is used for a variety of optional features."
+              "releaseModel": { "type": "fragmenter" }
+            },
+            {
+              "name": "CFM Alpha Build",
+              "key": "a320cfm-alpha",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": true,
+              "releaseModel": { "type": "fragmenter" }
+            },
+            {
+              "name": "IAE Alpha Build",
+              "key": "a320iae-alpha",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": true,
+              "releaseModel": { "type": "fragmenter" }
             }
           ],
-          "disallowedRunningExternalApps": ["@/simbridge-app"],
-          "backgroundService": {
-            "executableFileBasename": "fbw-simbridge",
-            "runCheckExternalAppRef": "@/simbridge-app",
-            "commandLineArgs": ["--hide"]
-          },
+          "dependencies": [{}],
+          "incompatibleAddons": [{}],
           "myInstallPage": {
             "links": [
               {
-                "url": "https://docs.flybywiresim.com/simbridge/",
+                "url": "https://docs.flybywiresim.com/fbw-a32nx/",
                 "title": "Documentation"
               }
             ],
             "directories": [
               {
-                "location": {
-                  "in": "documents",
-                  "path": "FlyByWireSim/Simbridge/resources"
-                },
-                "title": "Resources"
+                "location": { "in": "packageCache", "path": "work" },
+                "title": "Work Folder"
               }
             ]
-          }
+          },
+          "disallowedRunningExternalApps": ["@/msfs", "@/mcdu-server"]
+        },
+        {
+          "key": "A321",
+          "name": "A321",
+          "repoOwner": "fenix",
+          "repoName": "aircraft",
+          "category": "@aircraft",
+          "aircraftName": "A321-200",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A321.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A321_LIGHT.png?raw=true",
+          "enabled": true,
+          "backgroundImageUrls": [
+            "https://github.com/PedroSzaboSilva/Images/blob/main/FenixA321Fire.png?raw=true"
+          ],
+          "shortDescription": "Airbus A321 Series",
+          "description": "The A321 (bigger A320) is one of many upgrades introduced by Airbus to help maintain its A320 product line’s position as the world’s most advanced and fuel-efficient single-aisle aircraft family. The baseline A319 jetliner has a choice of two new-generation engines (the PurePower PW1100G-JM from Pratt and Whitney and the LEAP-1A from CFM International) and features large, fuel-saving wingtip devices known as Sharklets.",
+          "techSpecs": [
+            { "name": "Engines", "value": "CFM LEAP 1A-26" },
+            { "name": "APU", "value": "APS3200" }
+          ],
+          "targetDirectory": "fenix-aircraft-a321",
+          "alternativeNames": ["A321", "a321"],
+          "tracks": [
+            {
+              "name": "CFM Public Build",
+              "key": "a321cfm-stable",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": false,
+              "releaseModel": { "type": "fragmenter" }
+            },
+            {
+              "name": "IAE Public Build",
+              "key": "a321iae-stable",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": false,
+              "releaseModel": { "type": "fragmenter" }
+            },
+            {
+              "name": "CFM Alpha Build",
+              "key": "a321cfm-alpha",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": true,
+              "releaseModel": { "type": "fragmenter" }
+            },
+            {
+              "name": "IAE Alpha Build",
+              "key": "a321iae-alpha",
+              "url": "https://flybywirecdn.com/addons/a32nx/stable",
+              "alternativeUrls": [
+                "external/a32nx/stable",
+                "https://cdn.flybywiresim.com/addons/a32nx/stable"
+              ],
+              "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
+              "isExperimental": true,
+              "releaseModel": { "type": "fragmenter" }
+            }
+          ],
+          "dependencies": [{}],
+          "incompatibleAddons": [{}],
+          "myInstallPage": {
+            "links": [
+              {
+                "url": "https://docs.flybywiresim.com/fbw-a32nx/",
+                "title": "Documentation"
+              }
+            ],
+            "directories": [
+              {
+                "location": { "in": "packageCache", "path": "work" },
+                "title": "Work Folder"
+              }
+            ]
+          },
+          "disallowedRunningExternalApps": ["@/msfs", "@/mcdu-server"]
         }
       ],
       "buttons": [
