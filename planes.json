@@ -1,0 +1,155 @@
+{
+    "fenix": {
+        "iconUrl": "",
+        "a319": {
+            "key":"FenixA319",
+            "name":"A319-100",
+            "titleImageUrl":"https://github.com/PedroSzaboSilva/Images/blob/main/A319.png?raw=true",
+            "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A319_LIGHT.png?raw=true",
+            "enabled": true,
+            "backgroundImageUrls": "https://github.com/PedroSzaboSilva/Images/blob/main/FenixA319Fire.png?raw=true",
+            "shortDescription": "A319-100",
+            "techSpecs": {
+                "CFM Variant": "CFM56",
+                "IAE Variant": "IAE V2500",
+                "APU": "Dunno lol"
+            },
+            "targetDirectory": "fenix-a319",
+            "alternativeNames": ["fenixa319", "FENIX A319"],
+            "tracks": {
+                "CFM Public Build": {
+                    "name": "CFM Public Build",
+                    "key": "fenixa319cfm",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2020/319CFM.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2024/319CFM.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": false
+                },
+                "IAE Public Build": {
+                    "name": "IAE Public Build",
+                    "key": "fenixa319iaem",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2020/319IAE.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2024/319IAE.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": false
+                },
+                "CFM Alpha Build": {
+                    "name": "CFM Alpha Build",
+                    "key": "fenixa319cfm",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2020/319CFM.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2024/319CFM.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": true
+                },
+                "IAE Alpha Build": {
+                    "name": "IAE Alpha Build",
+                    "key": "fenixa319iaem",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2020/319IAE.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2024/319IAE.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": true
+                }
+            }
+        },
+        "a320": {
+            "key":"FenixA320",
+            "name":"A320-200",
+            "titleImageUrl":"https://github.com/PedroSzaboSilva/Images/blob/main/A320.png?raw=true",
+            "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A320_LIGHT.png?raw=true",
+            "enabled": true,
+            "backgroundImageUrls": "https://github.com/PedroSzaboSilva/Images/blob/main/FenixFire1.png?raw=true",
+            "shortDescription": "A320-100",
+            "techSpecs": {
+                "CFM Variant": "CFM56",
+                "IAE Variant": "IAE V2500",
+                "APU": "Dunno lol"
+            },
+            "targetDirectory": "fenix-a320",
+            "alternativeNames": ["fenixa320", "FENIX A320"],
+            "tracks": {
+                "CFM Public Build": {
+                    "name": "CFM Public Build",
+                    "key": "fenixa320cfm",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2020/320CFM.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2024/320CFM.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": false
+                },
+                "IAE Public Build": {
+                    "name": "IAE Public Build",
+                    "key": "fenixa320iaem",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2020/320IAE.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2024/320IAE.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": false
+                },
+                "CFM Alpha Build": {
+                    "name": "CFM Alpha Build",
+                    "key": "fenixa320cfm",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2020/320CFM.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2024/320CFM.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": true
+                },
+                "IAE Alpha Build": {
+                    "name": "IAE Alpha Build",
+                    "key": "fenixa320iaem",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2020/320IAE.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2024/320IAE.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": true
+                }
+            }
+        },        
+        "a321 ": {
+            "key":"FenixA321",
+            "name":"A321-200",
+            "titleImageUrl":"https://github.com/PedroSzaboSilva/Images/blob/main/A321.png?raw=true",
+            "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A321_LIGHT.png?raw=true",
+            "enabled": true,
+            "backgroundImageUrls": "https://github.com/PedroSzaboSilva/Images/blob/main/FenixA321Fire.png?raw=true",
+            "shortDescription": "A321-200",
+            "techSpecs": {
+                "CFM Variant": "CFM56",
+                "IAE Variant": "IAE V2500",
+                "APU": "Dunno lol"
+            },
+            "targetDirectory": "fenix-a321",
+            "alternativeNames": ["fenixa321", "FENIX A321"],
+            "tracks": {
+                "CFM Public Build": {
+                    "name": "CFM Public Build",
+                    "key": "fenixa321cfm",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2020/321CFM.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2024/321CFM.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": false
+                },
+                "IAE Public Build": {
+                    "name": "IAE Public Build",
+                    "key": "fenixa319iaem",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2020/321IAE.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/main/2024/321IAE.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": false
+                },
+                "CFM Alpha Build": {
+                    "name": "CFM Alpha Build",
+                    "key": "fenixa319cfm",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2020/321CFM.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2024/321CFM.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": true
+                },
+                "IAE Alpha Build": {
+                    "name": "IAE Alpha Build",
+                    "key": "fenixa319iaem",
+                    "urlMSFS2020": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2020/321IAE.txt",
+                    "urlMSFS2024": "https://raw.githubusercontent.com/TriTriTheCuber/TFX/refs/heads/alpha/main/2024/321IAE.txt",
+                    "description": "This public build includes engine fires, smokes, sparks and alot more.",
+                    "alpha": true
+                }
+            }
+        }
+    }
+}
