@@ -463,8 +463,8 @@
           "repoName": "aircraft",
           "category": "@aircraft",
           "aircraftName": "B727-200",
-          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A320N.png?raw=true",
-          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A320N_LIGHT.png?raw=true",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/b727-2.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/b727-2_light.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
             "https://github.com/PedroSzaboSilva/Images/blob/main/fbwA320neoFire.png?raw=true"
@@ -511,8 +511,8 @@
           "repoName": "aircraft",
           "category": "@aircraft",
           "aircraftName": "B727-200F",
-          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A380.png?raw=true",
-          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A380_LIGHT.png?raw=true",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/b727f.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/b727f_light.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
             "https://github.com/PedroSzaboSilva/Images/blob/main/a380fire.png?raw=true"
@@ -582,8 +582,8 @@
           "repoName": "aircraft",
           "category": "@aircraft",
           "aircraftName": "B737-800",
-          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A320N.png?raw=true",
-          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A320N_LIGHT.png?raw=true",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/b737-8.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/b737-8_light.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
             "https://github.com/PedroSzaboSilva/Images/blob/main/fbwA320neoFire.png?raw=true"
@@ -630,8 +630,8 @@
           "repoName": "aircraft",
           "category": "@aircraft",
           "aircraftName": "B777-200er",
-          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A380.png?raw=true",
-          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A380_LIGHT.png?raw=true",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/b777-2.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/b777-2_light.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
             "https://github.com/PedroSzaboSilva/Images/blob/main/a380fire.png?raw=true"
@@ -678,8 +678,8 @@
           "repoName": "aircraft",
           "category": "@aircraft",
           "aircraftName": "B777-F",
-          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A380.png?raw=true",
-          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A380_LIGHT.png?raw=true",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/b777f.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/b777f_light.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
             "https://github.com/PedroSzaboSilva/Images/blob/main/a380fire.png?raw=true"
@@ -726,8 +726,8 @@
           "repoName": "aircraft",
           "category": "@aircraft",
           "aircraftName": "B777-300er",
-          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/A380.png?raw=true",
-          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/A380_LIGHT.png?raw=true",
+          "titleImageUrl": "https://github.com/PedroSzaboSilva/Images/blob/main/b777-3.png?raw=true",
+          "titleImageUrlSelected": "https://github.com/PedroSzaboSilva/Images/blob/main/b777-3_light.png?raw=true",
           "enabled": true,
           "backgroundImageUrls": [
             "https://github.com/PedroSzaboSilva/Images/blob/main/a380fire.png?raw=true"
