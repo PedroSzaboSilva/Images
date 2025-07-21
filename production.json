@@ -60,8 +60,8 @@
           "alternativeNames": ["A319", "a319"],
           "tracks": [
             {
-              "name": "CFM 2020 Public Build",
-              "key": "a319cfm-stable2020",
+              "name": "CFM Public Build",
+              "key": "a319cfm-stable",
               "url": "https://2020.cdn.tritrisim.com/319CFM.txt",
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
@@ -69,8 +69,8 @@
               "releaseModel": { "type": "fragmenter" }
             },
             {
-              "name": "IAE 2020 Public Build",
-              "key": "a319iae-stable2020",
+              "name": "IAE Public Build",
+              "key": "a319iae-stable",
               "url": "https://github.com/TriTriTheCuber/TFX/raw/refs/heads/main/alpha/2020/319IAEc.txt",
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
@@ -78,8 +78,8 @@
               "releaseModel": { "type": "fragmenter" }
             },
             {
-              "name": "CFM 2024 Public Build",
-              "key": "a319cfm-stable2020",
+              "name": "CFM Alpha Build",
+              "key": "a319cfm-alpha",
               "url": "https://github.com/TriTriTheCuber/TFX/raw/refs/heads/main/2024/319CFM.txt",
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
@@ -87,8 +87,8 @@
               "releaseModel": { "type": "fragmenter" }
             },
             {
-              "name": "IAE 2024 Public Build",
-              "key": "a319iae-stable2020",
+              "name": "IAE Alpha Build",
+              "key": "a319iae-alpha",
               "url": "https://github.com/TriTriTheCuber/TFX/raw/refs/heads/main/2024/319IAE.txt",
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
