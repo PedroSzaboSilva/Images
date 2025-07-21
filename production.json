@@ -4,7 +4,7 @@
     {
       "name": "Fenix",
       "key": "fenix",
-      "logoUrl": "https://raw.githubusercontent.com/PedroSzaboSilva/Images/refs/heads/main/fenix.ico",
+      "logoUrl": "https://installer.cdn.tritrisim.com/images/fenix.ico",
       "defs": [
         { "kind": "addonCategory", "key": "aircraft", "title": "Aircraft" },
         {
@@ -320,7 +320,7 @@
     {
       "name": "FlyByWire Simulations",
       "key": "flybywire",
-      "logoUrl": "https://raw.githubusercontent.com/PedroSzaboSilva/Images/refs/heads/main/flybywire.ico",
+      "logoUrl": "https://installer.cdn.tritrisim.com/images/flybywire.ico",
       "defs": [
         { "kind": "addonCategory", "key": "aircraft", "title": "Aircraft" }
       ],
@@ -439,7 +439,7 @@
     {
       "name": "FlightSim Studios",
       "key": "flightsim",
-      "logoUrl": "https://raw.githubusercontent.com/PedroSzaboSilva/Images/refs/heads/main/flightsimstudio.ico",
+      "logoUrl": "https://installer.cdn.tritrisim.com/images/flightsimstudio.ico",
       "defs": [
         { "kind": "addonCategory", "key": "aircraft", "title": "Aircraft" }
       ],
@@ -558,7 +558,7 @@
         {
       "name": "PMDG Simulations",
       "key": "pmdg",
-      "logoUrl": "https://raw.githubusercontent.com/PedroSzaboSilva/Images/refs/heads/main/pmdg.ico",
+      "logoUrl": "https://installer.cdn.tritrisim.com/images/pmdg.ico",
       "defs": [
         { "kind": "addonCategory", "key": "aircraft", "title": "Aircraft" }
       ],
@@ -773,7 +773,7 @@
     {
       "name": "iniBuilds",
       "key": "inibuilds",
-      "logoUrl": "https://raw.githubusercontent.com/PedroSzaboSilva/Images/refs/heads/main/flybywire.ico",
+      "logoUrl": "https://installer.cdn.tritrisim.com/images/flybywire.ico",
       "defs": [
         { "kind": "addonCategory", "key": "aircraft", "title": "Aircraft" }
       ],
