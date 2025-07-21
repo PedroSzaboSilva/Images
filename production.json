@@ -66,7 +66,7 @@
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "CDN" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "IAE 2020 Public Build",
@@ -75,7 +75,7 @@
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "CFM 2024 Public Build",
@@ -84,7 +84,7 @@
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "IAE 2024 Public Build",
@@ -93,7 +93,7 @@
               "alternativeUrls": [],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ],
           "dependencies": [{}],
@@ -146,7 +146,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "IAE Public Build",
@@ -158,7 +158,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "CFM Alpha Build",
@@ -170,7 +170,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "IAE Alpha Build",
@@ -182,7 +182,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ],
           "dependencies": [{}],
@@ -235,7 +235,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "IAE Public Build",
@@ -247,7 +247,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "CFM Alpha Build",
@@ -259,7 +259,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "IAE Alpha Build",
@@ -271,7 +271,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ],
           "dependencies": [{}],
@@ -357,7 +357,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -369,7 +369,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         },
@@ -405,7 +405,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -417,7 +417,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         }
@@ -476,7 +476,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -488,7 +488,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         },
@@ -524,7 +524,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -536,7 +536,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         }
@@ -595,7 +595,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -607,7 +607,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         },
@@ -643,7 +643,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -655,7 +655,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         },
@@ -691,7 +691,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -703,7 +703,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         },
@@ -739,7 +739,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -751,7 +751,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         }
@@ -810,7 +810,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -822,7 +822,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         },
@@ -858,7 +858,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": false,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             },
             {
               "name": "Alpha",
@@ -870,7 +870,7 @@
               ],
               "description": "The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. This edition will always be behind the development edition in both features and fixes, but it will receive compatibility patches if required for MSFS updates. Please visit our discord for support.",
               "isExperimental": true,
-              "releaseModel": { "type": "githubRelease" }
+              "releaseModel": { "type": "fragmenter" }
             }
           ]
         }
